@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"> 
+       
+        <title>Znuni Resort</title> 
+        <meta name="author" content="Tabitha Karaba">
+        <meta name="description" content="contact information for the Resort in swiss Alps">
+
+       
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600;800&family=Open+Sans:wght@300;700&family=Roboto+Slab:wght@100;300;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1><a href="index.html">ZnunI</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Accommodations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>    
+        </header>
+
+        <main class="contact">
+            <div class="peak">
+                <h2>Contact Us</h2>
+                <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+                <p> Required fields marked with a *</p>
+                <img src="Images/swiss-peak.jpg" alt="a river and a forest in front of a snowy mountain peak">
+            </div>    
+    
+            <div class="name">
+                <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+                    <label for="fullname">Full Name<span class="required">*</span></label>
+                    <input type="text" name="fullname" id="fullname" required>
+    
+                    
+                    <label for="my-email">Email<span class="required">*</span></label>
+                    <input type="email" name="my-email" id="my-email" required>
+    
+            
+                    <label for="my-phone">Phone<span class="required">*</span></label>
+                    <input type="tel" name="my-phone" id="my-phone" required>        
+    
+    
+                    <fieldset>
+                        <legend>Preferred Method of Contact<span class="required">*</span></legend>
+                        <input type="radio" name="contact-pref" id="pref-email" value="pref-email" required checked>
+                        <label for="pref-email">Email</label>
+                        <input type="radio" name="contact-pref" id="pref-phone" value="pref-phone">
+                        <label for="pref-phone">Phone</label>
+                    </fieldset>
+
+        
+                        
+    
+                    <label for="my-comments">Comments<span class="required">*</span></label>
+                    <textarea name="my-comments" id="my-comments"></textarea>
+                    
+                    <input type="submit" name="my-submit" id="my-submit" value="Submit Form">
+                </form>
+            </div>            
+        </main>
+        <footer>
+            <p> Copyright ©2023 - ZNUNI</p>
+            <p> This site is for educational purposes only</p>
+        </footer>
+    </body>
+</html>
